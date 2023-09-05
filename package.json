@@ -1,0 +1,29 @@
+{
+  "name": "timezone-map-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index_bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack serve",
+    "dev": "webpack && webpack-dev-server --config webpack.config.js --hot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.0",
+    "luxon": "^3.4.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43"
+  }
+}

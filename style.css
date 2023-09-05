@@ -1,0 +1,52 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.logo {
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 38px;
+}
+
+.tz-map > polygon {
+	fill: #4f7672;
+}
+
+.tz-map > polygon.current,
+.tz-map > polygon:hover {
+	fill: #a79a60;
+	cursor: pointer;
+}
+
+.tz-plugins{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	margin: 0 0 18px;
+}
+
+.tz-plugins > div {
+	display: inline-block;
+	font-size: 24px;
+	padding: 0 8px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.tz-plugin.current,
+.tz-plugins > div:hover {
+	color: orange;
+}
+
+.timezone-info {
+	text-align: center;
+}
+
+.own-tz {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 15px;
+    font-size: 22px;
+}
